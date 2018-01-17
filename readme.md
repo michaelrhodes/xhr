@@ -2,13 +2,13 @@
 
 xhr is a little module that simplifies working with XMLHttpRequest objects
 
-## Install
+## install
 
 ```sh
 npm install michaelrhodes/xhr
 ```
 
-### Usage
+### use
 
 ```js
 var xhr = require('xhr')
@@ -48,5 +48,5 @@ var res = req.send()
 console.log(res.responseText || res.status)
 ```
 
-### License
+### obey
 [MIT](http://opensource.org/licenses/MIT)
