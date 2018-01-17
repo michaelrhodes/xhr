@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Michael Rhodes",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xhr2": "~0.1.4"
+  }
 }
