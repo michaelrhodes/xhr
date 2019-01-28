@@ -16,7 +16,7 @@ var xhr = require('xhr')
 // Basic async
 // ···········
 xhr('GET /something', function (err) {
-  err ? console.error('http-status', err) :
+  err ? console.error('Status:', err.message) :
   console.log(this.responseText)
 })
 
@@ -27,8 +27,8 @@ var req = xhr('GET /something.json')
 req.setRequestHeader('Accept', 'application/json')
 // with a fancy new `send` method
 req.send(function (err) {
-  err ? console.error('http-status', err) :
-  console.log(JSON.parse(res))
+  err ? console.error('Status:', err.message) :
+  console.log(JSON.parse(this.responseText))
 })
 
 // Sending data
@@ -37,7 +37,7 @@ var req = xhr('POST /something')
 var data = new FormData
 data.append('some', 'data')
 req.send(data, function (err) {
-  err ? console.error('http-status', err) :
+  err ? console.error('Status:', err.message) :
   console.log(this.responseText)
 })
 
