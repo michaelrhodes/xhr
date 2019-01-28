@@ -5,7 +5,7 @@ xhr is a little module that simplifies working with XMLHttpRequest objects
 ## install
 
 ```sh
-npm install michaelrhodes/xhr
+npm install michaelrhodes/xhr#2.0.0
 ```
 
 ### use
