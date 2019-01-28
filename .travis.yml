@@ -4,5 +4,3 @@ node_js:
   - 10.0
   - 8.0
   - 6.0
-install:
-  npm i xhr2
