@@ -2,6 +2,8 @@
 
 xhr is a little module that simplifies working with XMLHttpRequest objects
 
+[![build status](https://travis-ci.org/michaelrhodes/xhr.svg?branch=master)](https://travis-ci.org/michaelrhodes/xhr)
+
 ## install
 
 ```sh
